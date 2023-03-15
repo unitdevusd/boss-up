@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emagrecendo em 30 dias</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Page icon -->
+    <link rel="icon" href="img/page-icon.png" type="image/png">
+
+    <script>
+        window.onload = function() {
+            function handleChange1() {
+                const x = document.querySelector("#faq-answer-1");
+                if (window.getComputedStyle(x).getPropertyValue('display') === 'none') {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function handleChange2() {
+                const x = document.querySelector("#faq-answer-2");
+                if (window.getComputedStyle(x).getPropertyValue('display') === 'none') {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function handleChange3() {
+                const x = document.querySelector("#faq-answer-3");
+                if (window.getComputedStyle(x).getPropertyValue('display') === 'none') {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function handleChange4() {
+                const x = document.querySelector("#faq-answer-4");
+                if (window.getComputedStyle(x).getPropertyValue('display') === 'none') {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function handleChange5() {
+                const x = document.querySelector("#faq-answer-5");
+                if (window.getComputedStyle(x).getPropertyValue('display') === 'none') {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+        const faqButton1 = document.querySelector("#faq-question-1");
+        faqButton1.addEventListener("click", handleChange1);
+
+        const faqButton2 = document.querySelector("#faq-question-2");
+        faqButton2.addEventListener("click", handleChange2);
+
+        const faqButton3 = document.querySelector("#faq-question-3");
+        faqButton3.addEventListener("click", handleChange3);
+
+        const faqButton4 = document.querySelector("#faq-question-4");
+        faqButton4.addEventListener("click", handleChange4);
+
+        const faqButton5 = document.querySelector("#faq-question-5");
+        faqButton5.addEventListener("click", handleChange5);
+    }
+    
+</script>
+</head>
+
+<body>
+    <header id="intro-container">
+        <div id="infos">
+            <h1>TRANSFORME SEU CORPO EM 30 DIAS</h1>
+            <h2>O guia completo de emagrecimento para conquistar a melhor versão de si mesmo</h2>
+            <ul id="benefits-list">
+                <li class="benefit-item"><i class="bi bi-check-circle-fill"></i><p>Resultados rápidos e duradouros</p></li>
+                <li class="benefit-item"><i class="bi bi-check-circle-fill"></i><p>Melhora da autoestima</p></li>
+                <li class="benefit-item"><i class="bi bi-check-circle-fill"></i><p>Mais disposição para atividades diárias</p></li>
+                <li class="benefit-item"><i class="bi bi-check-circle-fill"></i><p>Redução do estresse</p></li>
+                <li class="benefit-item"><i class="bi bi-check-circle-fill"></i><p>Mais saúde e bem-estar</p></li>
+            </ul>
+            
+            <div id="security">
+                <a href="https://pay.kiwify.com.br/4Yo0EnX" target="_blank" class="buy-btn">Quero transformar meu corpo</a>
+                <div class="security-flex">
+                    <i class="bi bi-shield-shaded"></i>
+                    <p>Compra 100% segura e satisfação garantida</p>
+                </div>
+                <img src="img/selos.png" alt="segurança">
+            </div>
+        </div>
+        <div id="ebook-img">
+            <img src="img/livro3d.png" alt="ebook">
+        </div>
+    </header>
+
+    <!-- Beneficios -->
+    <section id="benefits-section">
+        <h2>Está na hora de mudar!</h2>
+        <p class="persuasive-text">Já se imaginou finalmente alcançando seus objetivos de emagrecimento e se sentindo confiante e feliz com seu corpo? Nosso ebook Desafio emagrecendo em 30 dias pode ser a solução que você estava procurando por apenas R$27,00!
+        </p>
+        <div class="benefits">
+            <div class="benefit">
+                <!-- Benefício 1 -->
+                <div id="benefit-1" class="benefit-img"></div>
+                <p class="benefit-title">Verdadeira transformação</p>
+                <p class="benefit-text">Descubra como emagrecer de forma saudável e sustentável pode ser o ponto de partida para uma transformação completa em sua vida. Invista em si mesmo e transforme sua vida agora!</p>
+            </div>
+            <div class="benefit">
+                <!-- Benefício 2 -->
+                <div id="benefit-2" class="benefit-img"></div>
+                <p class="benefit-title">Sem fome, sem sofrimento!</p>
+                <p class="benefit-text">Entenda como emagrecer sem passar fome, sem dietas mirabolantes e sem abrir mão dos alimentos que você ama e com muito mais energia para atividades diárias.</p>
+            </div>
+            <div class="benefit">
+                <!-- Benefício 3 -->
+                <div id="benefit-3" class="benefit-img"></div>
+                <p class="benefit-title">Mais saúde e bem-estar</p>
+                <p class="benefit-text">Tenha mais qualidade de vida e reduza a chance de doenças crônicas em sua jornada por transformação! O que você vai aprender está muito além de apenas mudar seu corpo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venda -->
+    <section class="sell-section">
+        <h2>O que você vai receber ao comprar o Desafio emagrecendo em 30 dias</h2>
+        <div class="sell-container">
+            <div class="descriptions">
+                <div class="description">
+                    <p class="description-title">Definição de metas claras</p>
+                    <p class="description-text">O E-Book ajuda a estabelecer metas realistas e alcançáveis para emagrecer em 30 dias.
+                    </p>
+                </div>
+                <div class="description">
+                    <p class="description-title">Plano de 4 semanas</p>
+                    <p class="description-text">Plano detalhado dividido em 4 semanas, com dicas para alimentação, exercícios e cuidados com a saúde.</p>
+                </div>
+                <div class="description">
+                    <p class="description-title">Estratégias para emagrecer de forma saudável</p>
+                    <p class="description-text">O livro se concentra em promover a perda de peso de forma saudável, com foco em alimentos nutritivos e práticas sustentáveis.</p>
+                </div>
+                <div class="description">
+                    <p class="description-title">Acompanhamento de progresso</p>
+                    <p class="description-text">O programa ajuda o leitor a monitorar seu progresso semanalmente, com dicas para medir peso e tirar fotos do corpo para comparação.</p>
+                </div>
+                <div class="description">
+                    <p class="description-title">Motivação e apoio emocional</p>
+                    <p class="description-text">Estratégias para lidar com recaídas e buscar apoio emocional de amigos e familiares durante o processo de emagrecimento.</p>
+                </div>
+                <div class="description">
+                    <p class="description-title">Foco no estilo de vida saudável</p>
+                    <p class="description-text">Incentivo a adoção de um estilo de vida saudável e equilibrado, com mudanças sustentáveis que podem ser mantidas a longo prazo.</p>
+                </div>
+                <div class="description">
+                    <p class="description-title">Guias descritivos</p>
+                    <p class="description-text">O E-Book conta com 2 guias didáticos para você aprender a calcular quantas calorias deve consumir por dia, e o quanto de água deve tomar diariamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="clients-section">
+        <h2>Nossos clientes estão dizendo:</h2>
+        <h3>Temos uma cultura muito forte em construir uma boa relação com nossos clientes, afinal são a parte mais importante de qualquer negócio.</h3>
+        
+        <div class="comments">
+                <div class="comment-row">
+                    <div class="client-profile">
+                        <div id="client-1" class="client-img"></div>
+                        <p class="client-name">Elis</p>
+                    </div>
+                    <div class="client-comment">
+                        <p>"Consegui completar o desafio dos 30 dias e ver resultados incríveis! Recomendo para quem quer mudar de vez seus hábitos, não parei nos 30 dias, depois que entrei na rotina, não saio nunca mais"</p>
+                    </div>
+                </div>
+                <div class="comment-row">
+                    <div class="client-profile">
+                        <div id="client-2" class="client-img"></div>
+                        <p class="client-name">Yuri</p>
+                    </div>
+                    <div class="client-comment">
+                        <p>"O plano semanal gradual do livro foi um verdadeiro achado para mim. Fácil de seguir e com mudanças gradualmente implementadas, consegui finalmente emagrecer sem desistir no caminho."</p>
+                    </div>
+                </div>
+                <div class="comment-row">
+                    <div class="client-profile">
+                        <div id="client-3" class="client-img"></div>
+                        <p class="client-name">Betina</p>
+                    </div>
+                    <div class="client-comment">
+                        <p>"Nunca pensei que seria possível emagrecer facilmente sem passar fome ou fazer dietas malucas. O método apresentado no livro funcionou muito bem para mim, e agora estou mais feliz e confiante do que nunca!"</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Garantia -->
+    <section class="guarantee-section">
+        <h2>Você não tem nada a perder!</h2>
+        <img src="../img/selo-garantia.png" class="guarantee-img">
+            <ul class="guarantee-list">
+                <li class="guarantee-item"><i class="bi bi-check-circle-fill"></i>Satisfação garantida ou seu dinheiro de volta</li>
+                <li class="guarantee-item"><i class="bi bi-check-circle-fill"></i>Reembolso garantido</li>
+                <li class="guarantee-item"><i class="bi bi-check-circle-fill"></i>Equipe de suporte especializada, sempre pronta para lhe atender</li>
+                <li class="guarantee-item"><i class="bi bi-check-circle-fill"></i>E-book validado por especialistas</li>
+            </ul>
+        <div class="guarantee-button">
+            <a href="https://pay.kiwify.com.br/4Yo0EnX" target="_blank" class="buy-btn">Comprar agora</a>
+        </div>
+        <div class="security-flex">
+                    <i class="bi bi-shield-shaded"></i>
+                    <p>Compra 100% segura e satisfação garantida</p>
+        </div>
+                <img src="img/selos.png" alt="segurança" class="security-imgs">
+        <div class="contact">
+            <p><strong>Contato:</strong> suporte.emagrecendoem30dias@gmail.com</p>
+        </div>
+        <p class="warning">Atenção: os resultados poderão variar de pessoa para pessoa</p>
+    </section>
+
+    <!-- Perguntas frequentes -->
+    <section class="faq-section">
+        <h2>Perguntas Frequentes</h2>
+        <ul class="faq-list">
+            <!-- pergunta 1 -->
+            <li class="faq-item">
+                <div id="faq-question-1">
+                    <i class="bi bi-question-circle" id="question-icon"></i>
+                    <p>Como funciona o ebook "Desafio emagrecendo em 30 dias"?</p>
+                    <i class="bi bi-caret-down-fill" id="selector-icon"></i>
+                </div>
+                <p id="faq-answer-1">O ebook "Desafio emagrecendo em 30 dias" é um guia completo que
+                     ajudará você a perder peso de forma saudável e eficaz em apenas um mês. Ele inclui um plano de metas semanais,
+                     de forma que você vai progredir gradativamente. Além de guias para aprender a calcular seu gasto calórico diário, e 
+                     a quantidade que você deve ingerir de água por dia.</p>
+            </li>
+
+            <!-- pergunta 2 -->
+            <li class="faq-item">
+                <div id="faq-question-2">
+                    <i class="bi bi-question-circle" id="question-icon"></i>
+                    <p>Quanto tempo leva para ver resultados com o ebook?</p>
+                    <i class="bi bi-caret-down-fill" id="selector-icon"></i>
+                </div>
+                <p id="faq-answer-2">O tempo de resultado pode variar de pessoa para pessoa, mas seguindo o plano de dieta e rotina de
+                     exercícios propostos no ebook, você poderá começar a notar resultados visíveis em apenas algumas semanas.
+                </p>
+            </li>
+
+            <!-- pergunta 3 -->
+            <li class="faq-item">    
+                <div id="faq-question-3">
+                    <i class="bi bi-question-circle" id="question-icon"></i>
+                    <p>Eu tenho algum risco de saúde para seguir o plano do ebook?</p>
+                    <i class="bi bi-caret-down-fill" id="selector-icon"></i>
+                </div>
+                <p id="faq-answer-3">É sempre importante consultar um médico antes de iniciar qualquer programa de perda de peso ou 
+                    mudança significativa na dieta e na rotina de exercícios físicos. O ebook "Desafio emagrecendo em 30 dias" é um 
+                    guia geral e não substitui a orientação médica personalizada.
+                </p>
+            </li>
+
+            <!-- pergunta 4 -->
+            <li class="faq-item">
+                <div id="faq-question-4">
+                    <i class="bi bi-question-circle" id="question-icon"></i>
+                    <p>O ebook inclui receitas e sugestões de refeições?</p>
+                    <i class="bi bi-caret-down-fill" id="selector-icon"></i>
+                </div>
+                <p id="faq-answer-4">O ebook contém dicas práticas, orientações nutricionais e sugestões de alimentos saudáveis para
+                     incluir na dieta. Não há receitas específicas no ebook.</p>
+            </li>
+
+            <!-- pergunta 5 -->
+            <li class="faq-item">
+                <div id="faq-question-5">
+                    <i class="bi bi-question-circle" id="question-icon"></i>
+                    <p>O que acontece após os 30 dias do desafio?
+                    </p>
+                    <i class="bi bi-caret-down-fill" id="selector-icon"></i>
+                </div>
+                <p id="faq-answer-5">Após os 30 dias do desafio, você terá adquirido hábitos saudáveis que poderá manter a longo prazo 
+                    para manter seu peso ideal e sua saúde. O ebook oferece dicas e estratégias para manter um estilo de vida saudável a
+                    para sempre.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer-section">
+        <p><strong>AVISO LEGAL:</strong> Todas as dicas e conceitos apresentados aqui têm como objetivo apenas informar e educar. Este website foi disponibilizado com esse objetivo e não tem
+             intenção nenhuma de servir como orientação médica, prescrição ou substituir diagnósticos de profissionais. Nenhuma informação
+              desta página ou do e-book Desafio Emagrecendo em 30 Dias substitui uma consulta com seu médico, nutricionista ou um personal.
+               Jamais faça nenhuma mudança na sua alimentação ou estilo de vida alimentar sem antes consultar seu médico ou profissional de
+                saúde. É só ele quem poderá avaliar de perto a sua situação atual e decidir se você está apto ou não a essas alterações. Tenha
+                 em mente que os resultados aqui apresentados são de pessoas reais, mas não garante que você terá os mesmo resultados. Vai do
+                  organismo de cada pessoa e da determinação de ter resultados. Os proprietários deste Livro Digital não se responsabilizam por
+                   quaisquer danos ou lesões resultantes. Isto é por sua conta. Desafio Emagrecendo em 30 dias - Todos os direitos reservados.</p>
+        <h4>Copyright Desafio Emagrecendo em 30 dias © 2023. Todos os direitos reservados.</h4>
+    </footer>
+</body>
+</html>

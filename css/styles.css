@@ -1,0 +1,722 @@
+/* Estou criando uma landing page */
+
+:root {
+    --primary: #FFA800;
+    --secondary: #e8e8e8bf;
+    --text-color: #fff;
+    --text-secondary: #000;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Introdução */
+
+/* Coluna da direita */
+
+#intro-container {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/acadbg.png);
+    background-size: cover;
+    background-position: center;
+    height:85vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+
+    padding-top:8vh;
+    padding-bottom:3vh;
+
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left:18%;
+    box-sizing: border-box;
+    width:50%;
+}
+
+#infos h1{
+    font-size: 3rem;
+    font-weight: 700;
+    max-width:700px;
+    color: var(--primary);
+}
+
+#infos h2{
+    max-width:700px;
+    margin-top:2%;
+}
+
+#benefits-list{
+    list-style:none;
+    margin: 1.2em 0 1.2em 0;
+    font-size:1.2em;
+}
+
+.benefit-item{
+    margin:0.5em 0 0.5em 0;
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.benefit-item i{
+    margin-right:0.5em;
+}
+
+
+#security{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-top:2%;
+    margin-right:20%;
+}
+
+.security-flex{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:.5em;
+}
+
+.security-flex i{
+    margin-right:0.5em;
+}
+
+#security img{
+    width:50%;
+    height:50%;
+}
+
+.buy-btn{
+    background-color: var(--primary);
+    color: var(--text-color);
+    border: none;
+    padding: 1em 2em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    margin-bottom:.5em; 
+    margin-top: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buy-btn:hover{
+    background-color:#ffc655 ;
+    color: var(--text-color);
+}
+
+/* Coluna da esquerda */
+
+#ebook-img{
+    width: 50%;
+}
+
+#ebook-img img{
+    width: 50%;
+}
+
+
+/* Sessão de benefícios */
+
+#benefits-section h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: var(--primary);
+
+    text-align:center;
+    padding-top:1em;
+}
+
+.persuasive-text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: var(--text-secondary);
+    text-align:center;
+    padding:1.5em 15em 2.5em 15em;
+}
+
+.benefits{
+    display:flex;
+    justify-content: space-around;
+    padding: 4em;
+    width:80%;
+    margin: 0 auto;
+}
+
+.benefit{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+
+    
+}
+
+.benefit-img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:1em;
+}
+
+#benefit-1{
+    background-image: url(../img/benefit-1.png);
+}
+
+#benefit-2{
+    background-image: url(../img/benefit-2-2.jpg);
+}
+
+#benefit-3{
+    background-image: url(../img/benefit-3.jpg);
+}
+
+
+.benefit-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+
+    margin-bottom:0.5em;
+    max-width:100%; 
+}
+
+.benefit-text{
+    max-width:55%;
+    font-size: 1rem;
+    line-height: 1.35em;
+}
+
+/* Sessão de venda */
+
+.sell-section{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url(../img/mulher-bg.png);
+    background-size: cover;
+    background-position: center;
+    height:90vh;
+
+    color: var(--text-color);
+}
+
+.sell-section h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+
+    text-align:center;
+    padding-top:1.5em;
+}
+
+.descriptions{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    padding: 4em;
+    max-width:48%;
+    margin-left:42%;
+
+    font-size:1.05em;
+}
+
+.description{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:1.6em;
+}
+
+.description-title{
+    font-size:1.1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom:.2em;
+}
+
+/* Sessão de depoimentos */
+.clients-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.clients-section h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: var(--primary);
+
+    text-align:center;
+    padding-top:1em;
+}
+
+.clients-section h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+
+    text-align:center;
+    padding-top:1em;
+}
+
+.clients-section h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+
+    padding-top:2em;
+    padding-left: 10vw;
+}
+
+.comments{
+    display:flex;
+    flex-direction:column;
+    margin-top:2%;
+    max-width:50%;
+}
+
+.comment-row{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-bottom:2em;
+    
+    background-color: var(--secondary);
+    border-radius:20px;
+
+    padding:1.5em;
+}
+
+.client-profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-right:3em;
+}
+
+.client-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:1em;
+}
+
+#client-1{
+    background-image: url(../img/perfil-1.png);
+}
+
+#client-2{
+    background-image: url(../img/perfil-2.png);
+}
+
+#client-3{
+    background-image: url(../img/perfil-3.png);
+}
+
+.client-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom:.2em;
+}
+
+/* Sessão de garantia */
+
+.guarantee-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url("../img/halterbg.png");
+    background-size: cover;
+    background-position: center;
+    height:93vh;
+    padding: 2em;
+
+    color: var(--text-color);
+}
+
+.guarantee-section h2{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: var(--text-color);
+
+    text-align:center;
+    padding-bottom:.5em;
+    padding-top:.5em;
+}
+
+.guarantee-img{
+    width:280px;
+    height:280px;
+ 
+    margin-bottom:1em;
+}
+
+.guarantee-list{
+    list-style:none;
+    margin: 1em 0 0 1em;
+    font-size:1.3em;
+}
+
+.guarantee-item{
+    margin:0 0 1em 8em;
+    display: flex;
+    align-items: center;
+    max-width:60%;
+}
+
+.guarantee-item i{
+    margin-right:1em;
+    color: var(--primary);
+}
+
+.guarantee-button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.security-flex{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.security-imgs{
+    width:20%;
+    height:7%;
+}
+
+.contact{
+    font-size:1em;
+    margin-top:1em;
+}
+
+.warning{
+    font-size: 0.7em;
+    margin-top:2vh;
+}
+
+/* Sessão de FAQ */
+
+.faq-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-section h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: var(--primary);
+
+    text-align:center;
+    padding-top:2em;
+    margin-bottom: 1em;
+}
+
+.faq-list{
+    list-style:none;
+    margin: 1em 0 0 1em;
+}
+
+.faq-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+
+
+#faq-question-1, #faq-question-2, #faq-question-3, #faq-question-4, #faq-question-5{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+
+    margin-bottom:.8em;
+
+    border-bottom: 1px solid var(--primary);
+    padding-bottom:.3em;
+    
+    font-weight: 500;
+    font-size:1.2em;
+    cursor:pointer;
+}
+
+#question-icon{
+    margin-right:.5em;
+    margin-left:.3em;
+    color: var(--primary);
+    
+}
+
+#selector-icon{
+    margin-left:.6em;
+    font-size:1em;
+    color: var(--primary);
+}
+
+#faq-answer-1, #faq-answer-2, #faq-answer-3, #faq-answer-4, #faq-answer-5{
+    display:none;
+    max-width:40%;
+    line-height: 1.5em;
+    transition: all 0.5s ease-in;
+}
+
+/* Sessão de footer */
+.footer-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--text-secondary);
+    height: 20vh;
+    padding: 1em;
+    margin-top:15vh;
+    
+    font-size:0.5em;
+    color: var(--text-color);
+}
+
+.footer-section p{
+    max-width: 50%;
+    text-align:center;
+}
+
+.footer-section h4{
+    max-width: 50%;
+    text-align:center;
+    margin-top:4vh;
+    font-size:2em;
+    font-weight: 500; 
+}
+
+/* Media queries - mobile */
+@media (max-width: 1500px) {
+    /* Introdução */
+    
+    #intro-container{
+        flex-direction: column;
+        align-items: center;
+
+        height: auto;
+    }
+
+    #infos{
+        width:95%;
+        margin:0;
+        align-items:center;
+    }
+
+    #infos h1{
+        max-width:90%;
+        text-align: center;
+        font-size:2.1rem;
+
+    }
+
+    #infos h2{
+        max-width:90%;
+        margin:5vh 0 0 0;
+        font-size:1.1rem;
+    }
+
+    #benefits-list{
+        max-width:90%;
+        margin: .5em 0 1em 0;
+    }
+
+    .buy-btn{
+        width:90%;
+        height:auto;
+    }
+
+    #security{
+        margin:0;
+    }
+    
+    #ebook-img{
+        display:none;
+        margin-top:4vh;
+        margin-bottom:5vh;
+        max-width:50%;
+        margin-right:0;
+    }
+
+    /* Benefícios */
+
+    #benefits-section h2{
+        font-size:1.8em;  
+    }
+    
+    .persuasive-text{
+        display:none;
+    }
+
+    .benefits{
+        flex-direction: column;
+        padding:4vh 2vw 4vh 2vw;
+        width:auto;
+    }
+
+    .benefit-text{
+        max-width:80%;
+        margin-bottom:8vh;
+    }
+
+    /* Venda */
+    .sell-section{
+        background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(../img/blackwallbg.png);
+        height:auto;
+    }
+    
+    .sell-section h2{
+        font-size: 1.6rem;
+        padding:.8em;
+    }
+    
+    .descriptions{
+        justify-content: flex-end;
+        padding: 5vw 10vw 10vw 10vw;
+        max-width:100%;
+        margin:0;
+    
+        text-align: center;
+        font-size:1em;
+    }
+
+    /* Depoimentos */
+    
+    .clients-section h2{
+        font-size: 1.8rem;
+    }
+    
+    .clients-section h3{
+      font-size:1.1em;
+      padding:2em 1em 2em 1em; 
+    }
+    
+    .comments{
+        max-width:90%;
+        text-align: center;
+        margin-bottom:5vh;
+    }
+    
+    .comment-row{
+        flex-direction:column;
+    }
+    
+    .client-profile{
+        margin-right:0;
+    }
+
+    /* Garantia */
+    .guarantee-section{
+        height:auto;
+    }
+    
+    .guarantee-section h2{
+        font-size: 1.8rem;
+    }
+    
+    .guarantee-list{
+        font-size:1.1em;
+    }
+
+    .guarantee-img{
+        margin-bottom:0;
+    }
+    
+    .guarantee-item{
+        margin:0;   
+        max-width:100%;
+        padding:.4em;
+    }
+    
+    .security-flex{
+        font-size:.8em;
+    }
+    .security-imgs{
+        width:70%;
+    }
+    
+    .contact{
+        font-size:.8em;
+    }
+    
+    .warning{
+        font-size: 0.6em;   
+    }
+    
+    /* FAQ */
+
+
+    .faq-section h2{
+        font-size: 1.8rem;
+        padding-top:1.5em;
+        margin-bottom:1.5em;
+    }
+    
+    .faq-item{
+        margin:1em;
+        font-size:.8em;
+    }
+
+    .faq-list{
+        margin-left:0;
+    }
+    
+    #faq-answer-1, #faq-answer-2, #faq-answer-3, #faq-answer-4, #faq-answer-5{
+        
+        max-width:80%;
+        margin-bottom:2vh;
+    }
+
+    /* Footer */
+    .footer-section{
+        height: auto;
+    }
+    
+    .footer-section p{
+        margin-top:2vh;
+        max-width: 90%;
+    }
+    
+    .footer-section h4{
+        max-width: 80%;
+        margin-top:2vh;
+        margin-bottom:2vh;
+        font-size:1.2em;
+    }
+}
